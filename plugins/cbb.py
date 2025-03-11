@@ -18,9 +18,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
-                        [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "home"),
+                 [
                  InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
-                    ]
+                ]
                 ]
             )
         )
