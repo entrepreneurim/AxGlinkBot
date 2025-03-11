@@ -181,7 +181,7 @@ async def not_joined(client: Client, message: Message):
         if invite_link1:
             buttons.append([InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=invite_link1)])
         if invite_link2:
-            buttons.append([InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=invite_link2)])
+            buttons.append([InlineKeyboardButton(text="ʙᴀᴄᴋᴜᴘ", url=invite_link2)])
     
         try:
             buttons.append([
