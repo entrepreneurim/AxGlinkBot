@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 TIME = int(os.environ.get("TIME", "30"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>›› Hᴇʏ {first} ×</blockquote>     ɪ ᴀᴍ ᴀ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀᴅʀ ᴀɴɪᴍᴇ ʜɪɴᴅɪ ⚡.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>𝖨 𝖺𝗆 𝗃𝗎𝗌𝗍 𝗅𝗂𝗇𝗄 𝗌𝗁𝖺𝗋𝗂𝗇𝗀 𝖻𝗈𝗍 𝖻𝗒 𝖠𝗇𝗂𝗆𝖾𝗑𝖦𝖺𝗅𝗅𝖾𝗋𝗒⚡.</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6987158459").split()):
@@ -53,9 +53,7 @@ except ValueError:
 
 #Force sub message 
 FORCE_MSG = os.environ.get(
-    "FORCE_SUB_MESSAGE",
-    """<b><blockquote>›› Hᴇʏ {mention} ×</blockquote>      ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, ᴊᴏɪɴ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.
-    </b>"""
+    "FORCE_SUB_MESSAGE", "<b><blockquote>›› 𝖧𝖾𝗒 {mention} ×</blockquote>     𝖧𝖾𝗋𝖾 𝗂𝗌 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄! 𝖢𝗅𝗂𝖼𝗄 𝖻𝖾𝗅𝗈𝗐 𝗍𝗈 𝗉𝗋𝗈𝖼𝖾𝖾𝖽.</b>"
 )
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
